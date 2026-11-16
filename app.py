@@ -1,7 +1,7 @@
-"""Módulo "Crear dashboard": punto de entrada del dashboard del Trabajo Terminal (mockup con datos ficticios).
+"""Punto de entrada del mockup inicial del Trabajo Terminal.
 
 Ejecutar desde la raíz del proyecto:
-    streamlit run dashboard/app.py
+    streamlit run app.py
 """
 import streamlit as st
 
@@ -30,6 +30,6 @@ paginas = {
 with st.sidebar:
     st.markdown("### Detección temprana de Alzheimer")
     st.caption("Trabajo Terminal · Lic. en Ciencia de Datos · IPN-ESCOM")
-    st.warning("Mockup: todas las cifras y gráficas usan datos ficticios.", icon=":material/construction:")
+    st.info("Mockup inicial: métricas de ejemplo y descripción de las secciones previstas.", icon=":material/construction:")
 
 st.navigation(paginas).run()
