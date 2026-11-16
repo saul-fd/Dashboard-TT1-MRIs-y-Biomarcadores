@@ -1,10 +1,10 @@
 # Dashboard TT1 · MRI y biomarcadores
 
-Mockup inicial en Streamlit para presentar la estructura del dashboard del Trabajo Terminal.
+Dashboard en Streamlit del Trabajo Terminal.
 
-- La página **Resumen** muestra cuatro métricas con cifras fijas de ejemplo.
+- La página **Resumen** presenta la descripción del proyecto, métricas, gráficas de desempeño y espacios para hallazgos.
 - Las demás páginas describen en texto el contenido previsto.
-- Esta versión no carga datos, ejecuta modelos ni calcula resultados.
+- Las métricas y gráficas se calculan a partir de datos aleatorios con semilla fija para mantener la consistencia entre ejecuciones.
 
 ## Ejecutar
 
@@ -17,7 +17,5 @@ python -m streamlit run app.py
 
 ## Ramas
 
-- `main`: mockup inicial con métricas de ejemplo y descripciones.
+- `main`: resumen con métricas y gráficas, y descripciones de las demás secciones.
 - `dashboard-avanzado`: versión previa con datos sintéticos, gráficas y simulación de resultados.
-
-Las cifras del mockup y de la versión avanzada son ficticias.

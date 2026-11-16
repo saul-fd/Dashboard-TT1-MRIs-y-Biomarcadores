@@ -1,4 +1,4 @@
-"""Punto de entrada del mockup inicial del Trabajo Terminal.
+"""Punto de entrada del dashboard del Trabajo Terminal.
 
 Ejecutar desde la raíz del proyecto:
     streamlit run app.py
@@ -30,6 +30,5 @@ paginas = {
 with st.sidebar:
     st.markdown("### Detección temprana de Alzheimer")
     st.caption("Trabajo Terminal · Lic. en Ciencia de Datos · IPN-ESCOM")
-    st.info("Mockup inicial: métricas de ejemplo y descripción de las secciones previstas.", icon=":material/construction:")
 
 st.navigation(paginas).run()
